@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Customized Styling */
+:root{
+    --primary-color: #ffff;
+    --text-color: #ff6e00;
+    --fill-color: #ff7200;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  
+    background: linear-gradient(to top, 
+    rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.6) 50%),
+    url(../assets/mainImage.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/* Everything about the Header */
+
+/* Nav Stylings */
+nav{
+    max-width: 100% ;
+    padding: 50px 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+/* Logo Styling */
+nav .nav_logo
+{
+color: var(--fill-color);
+font-size: 20px;
+letter-spacing: -1.5px;
+cursor: pointer;
+}
+
+/* styling the Menu and Items */
+nav .nav_menu ul{
+    display: flex;
+    gap: 40px;
+}
+
+nav .nav_menu ul li{
+    list-style: none;
+}
+nav .nav_menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    transition: 0.3s ease;
+}
+
+nav .nav_menu ul li a:hover{
+    color: var(--text-color);
+}
+
+/* Styling for the Menu_Search Bar */
+
+@media screen and (min-width: 910px) {
+    .nav_menuIcon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 909px){
+   nav{
+    display: flex;
+    padding: 40px, 50px ;
+    /* gap: 20px; */
+   }
+ 
+   nav .nav_logo{
+    font-size: 30px;
+   }
+
+    nav .nav_menu, nav .nav_form{
+        display: none;
+    }
+
+}
+
+
+/* Everything about the Header Ends here */
+main {
+    width: 100%;
+    height: 400px;
+    display: flex;
+
+}
+main .main_Hero {
+    width: 75%;
+    height: 400px;
+}
+
+main .main_searchbar{
+    width: 25%;
+    height: 400px;
+}
+
+/* The Main Section Starts Here */

@@ -15,10 +15,10 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-  
     background: linear-gradient(to top, 
     rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.6) 50%),
     url(./assets/mainImage.jpg);
+    background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;

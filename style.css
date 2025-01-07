@@ -74,11 +74,12 @@ nav .nav_form {
   display: flex;
   gap: 0;
 }
-
 nav .nav_form input, .nav_form button{
     margin: 0;
     gap: 0;
 }
+
+/* Styling for Search and Search button */
 nav .nav_search{
     width: 200px;
     height: 40px;
@@ -116,13 +117,13 @@ nav .nav_sch_button{
 
 /* Styling for the Menu_Search Bar */
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1000px) {
     .nav_menuIcon{
         display: none;
     }
 }
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 1000px){
    nav{
     display: flex;
     padding: 40px, 50px ;
@@ -138,8 +139,6 @@ nav .nav_sch_button{
     }
 
 }
-
-
 
 
 /* Everything about the Header Ends here */

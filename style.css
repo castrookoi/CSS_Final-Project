@@ -67,15 +67,62 @@ nav .nav_menu ul li a:hover{
     color: var(--text-color);
 }
 
+/* Styling for input form */
+nav .nav_form {
+  /* background-color: yellow; */
+  width: 330px;
+  display: flex;
+  gap: 0;
+}
+
+nav .nav_form input, .nav_form button{
+    margin: 0;
+    gap: 0;
+}
+nav .nav_search{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1.5px solid var(--fill-color);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 10px;
+    color: var(--primary-color);
+    float: left;
+    
+}
+
+::placeholder{
+    color: var(--primary-color);
+}
+
+nav .nav_search:focus{
+    outline: none;
+}
+
+nav .nav_sch_button{
+    background-color: var(--fill-color);
+    width: 100px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+}
+
+
 /* Styling for the Menu_Search Bar */
 
-@media screen and (min-width: 910px) {
+@media screen and (min-width: 990px) {
     .nav_menuIcon{
         display: none;
     }
 }
 
-@media screen and (max-width: 909px){
+@media screen and (max-width: 990px){
    nav{
     display: flex;
     padding: 40px, 50px ;
@@ -83,7 +130,7 @@ nav .nav_menu ul li a:hover{
    }
  
    nav .nav_logo{
-    font-size: 30px;
+    font-size: 20px;
    }
 
     nav .nav_menu, nav .nav_form{
@@ -91,6 +138,8 @@ nav .nav_menu ul li a:hover{
     }
 
 }
+
+
 
 
 /* Everything about the Header Ends here */
@@ -105,9 +154,5 @@ main .main_Hero {
     height: 400px;
 }
 
-main .main_searchbar{
-    width: 25%;
-    height: 400px;
-}
 
 /* The Main Section Starts Here */

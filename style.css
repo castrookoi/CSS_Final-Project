@@ -46,6 +46,13 @@ letter-spacing: -1.5px;
 cursor: pointer;
 }
 
+nav .nav_menuIcon{
+    stroke: #ff7200;
+    stroke-width: 3; 
+    stroke-linecap: round; 
+    stroke-linejoin: round;
+}
+
 /* styling the Menu and Items */
 nav .nav_menu ul{
     display: flex;
@@ -114,12 +121,11 @@ nav .nav_sch_button{
     height: 40px;
 }
 
-
 /* Styling for the Menu_Search Bar */
 
 @media screen and (min-width: 947px) {
-    .nav_menuIcon{
-        display: none;
+   nav .nav_menuIcon {
+        display: none; /* Ensures the element is not displayed */
     }
 }
 

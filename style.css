@@ -323,10 +323,9 @@ main .main_jn_button{
     main {
         display: flex;
         flex-direction: row;
-        flex-direction: wrap;
     }
 
-    nav .nav_menu {
+     .nav_menu {
         display: flex; /* Ensure menu items are displayed on desktop */
         flex-direction: row;
     }
@@ -334,7 +333,7 @@ main .main_jn_button{
         padding: 15px 15px;
     }
 
-nav .nav_form{
+ .nav_form{
     display: flex;
     flex-direction: row;
 }

@@ -44,7 +44,7 @@ nav{
 nav .nav_logo
 {
 color: var(--fill-color);
-font-size: 20px;
+font-size: 25px;
 letter-spacing: -1.5px;
 cursor: pointer;
 }
@@ -69,7 +69,7 @@ nav .nav_menu ul li{
 nav .nav_menu ul li a{
     text-decoration: none;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bolder;
     transition: 0.3s ease;
 }
@@ -182,7 +182,7 @@ main .main_jn_button{
     /* background-color: yellow; */
     height: 400px;
     /* background-color: yellow; */
-      margin-left: 50px;
+      margin-left: 200px;
     /* margin-top: 90px; */
  }
 
@@ -190,7 +190,7 @@ main .main_jn_button{
     display: flex;
     flex-direction: column;
     width: 280px;
-    height: 450px;
+    height: 470px;
     background: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.7) 50%,
@@ -199,7 +199,7 @@ main .main_jn_button{
     /* float: right; */
     border-radius: 15px;
     padding: 10px;
-    margin-right: 95px;
+    margin-right: 83px;
  }
 
  main .form_items .form_btn1{
@@ -295,6 +295,9 @@ main .main_jn_button{
  .form_instagram path {
     fill: var(--primary-color);
  }
+ .form_instagram path:hover{
+    fill: var(--fill-color);
+ }
 
  .form_tweet {
     width: 30px;   /* Set width */
@@ -333,5 +336,50 @@ main .main_jn_button{
     nav .nav_menu {
         display: flex; /* Ensure menu items are displayed on desktop */
     }
+    nav{   
+        padding: 30px 30px;
+    }
+
+nav .nav_form{
+    display: flex;
+    flex-direction: row;
+}
 }
 
+.form_tweeter{
+    fill: var(--primary-color);
+    width: 29px;
+}
+
+.form_google{
+    fill: var(--primary-color);
+    width: 29px;
+}
+
+.form_skype {
+    fill: var(--primary-color); /* Ensure --primary-color is defined */
+    width: 26px;
+}
+
+.form_skype:hover{
+    fill: var(--fill-color);
+}
+
+.form_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 4px;
+    cursor: pointer;
+}
+.form_icons svg:hover{
+    fill: var(--fill-color);
+    stroke: var(--fill-color);
+}
+
+.form_instagram:hover{
+    stroke: var(--fill-color);
+    fill: var(--fill-color);
+}

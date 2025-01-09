@@ -126,18 +126,18 @@ nav .nav_sch_button{
 
 /* Styling for the Menu_Search Bar */
 
-@media screen and (min-width: 947px) {
+@media screen and (min-width: 1013px) {
    nav .nav_menuIcon {
         display: none; /* Ensures the element is not displayed */
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1013px){
     nav .nav_menu, nav .nav_form{
         display: none;}
     }
 
 
-@media screen and (max-width: 946px){
+@media screen and (max-width: 1013px){
    nav{
     display: flex;
     padding: 40px, 50px ;
@@ -332,8 +332,6 @@ main .main_jn_button{
 
 
 
-
-
  @media screen and (max-width: 947px) {
     main .main_Hero{
      margin-top: 15px;
@@ -343,7 +341,6 @@ main .main_jn_button{
         font-size: 40px;
     }
 
-    
     
     main {
         display: flex;
@@ -362,11 +359,11 @@ main .main_jn_button{
     }
  }
 
- @media screen and (max-width: 453px) {
+ /* @media screen and (max-width: 453px) {
     main .main_login_form{
         margin-top: 30px;
     }
- }
+ } */
 
 
 

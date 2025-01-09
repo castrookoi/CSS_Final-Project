@@ -83,6 +83,8 @@ nav .nav_form {
   /* background-color: yellow; */
   width: 330px;
   display: flex;
+  flex-direction: row;
+  background-color: yellow;
   gap: 0;
 }
 nav .nav_form input, .nav_form button{
@@ -134,12 +136,12 @@ main {
     width: 100%;
     height: 280px;
     display: flex;
+    flex-direction: row;
     gap: 70px;
     /* background-color: red; */
 
 }
 main .main_Hero {
-    width: 65%;
     height: 400px;
     /* background-color: yellow; */
     padding-left: 50px;
@@ -178,7 +180,6 @@ main .main_jn_button{
 /* Main Form  begins here*/
  main .main_login_form{
     /* background-color: yellow; */
-    width: 35%;
     height: 400px;
     /* background-color: yellow; */
       margin-left: 50px;
@@ -302,7 +303,7 @@ main .main_jn_button{
     stroke: none;   /* Ensure there is no stroke */
  }
 
- @media screen and (max-width: 1000px) {
+ @media screen and (max-width: 976px) {
     nav .nav_menu {
         display: none; /* Hide menu items on mobile */
     }
@@ -320,7 +321,7 @@ main .main_jn_button{
     }
 }
 
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 977px) {
     nav .nav_menuIcon {
         display: none; /* Hide menu icon on desktop */
     }
@@ -333,5 +334,4 @@ main .main_jn_button{
         display: flex; /* Ensure menu items are displayed on desktop */
     }
 }
-
 

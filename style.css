@@ -134,11 +134,13 @@ nav .nav_sch_button{
 /* Main Section starts here */
 main {
     width: 100%;
-    height: 280px;
+    height: auto;
     display: flex;
+    flex-direction: ;
     flex-direction: row;
+    justify-content: space-between;
     gap: 70px;
-    /* background-color: red; */
+    background-color: red;
 
 }
 main .main_Hero {
@@ -146,7 +148,7 @@ main .main_Hero {
     /* background-color: yellow; */
     padding-left: 50px;
     margin-top: 90px;
-    /* background-color: blue; */
+    background-color: blue;
 }
 
 main .main_Hero h2{
@@ -180,9 +182,9 @@ main .main_jn_button{
 /* Main Form  begins here*/
  main .main_login_form{
     /* background-color: yellow; */
-    height: 400px;
+    height: inherit;
     /* background-color: yellow; */
-      margin-left: 200px;
+      /* margin-left: 200px; */
     /* margin-top: 90px; */
  }
 
@@ -288,7 +290,7 @@ main .main_jn_button{
     width: 30px;
  }
 
- @media screen and (max-width: 984px) {
+ @media screen and (max-width: 976px) {
     nav .nav_menu {
         display: none; /* Hide menu items on mobile */
     }
@@ -312,7 +314,7 @@ main .main_jn_button{
     }
 }
 
-@media screen and (min-width: 985px) {
+@media screen and (min-width: 977px) {
     nav .nav_menuIcon {
         display: none; /* Hide menu icon on desktop */
     }

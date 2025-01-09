@@ -33,7 +33,7 @@ body{
 /* Nav Stylings */
 nav{
     max-width: 100% ;
-    padding: 50px 50px;
+    padding: 50px 20px;
     height: 50px;
     display: flex;
    justify-content: space-between;
@@ -44,7 +44,7 @@ nav{
 nav .nav_logo
 {
 color: var(--fill-color);
-font-size: 25px;
+font-size: 20px;
 letter-spacing: -1.5px;
 cursor: pointer;
 }
@@ -136,11 +136,11 @@ main {
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: ;
+    flex-direction: row;
     flex-direction: row;
     justify-content: space-between;
-    gap: 70px;
-    background-color: red;
+    margin-left: 10px;
+    /* background-color: red; */
 
 }
 main .main_Hero {
@@ -148,7 +148,7 @@ main .main_Hero {
     /* background-color: yellow; */
     padding-left: 50px;
     margin-top: 90px;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 main .main_Hero h2{
@@ -311,6 +311,7 @@ main .main_jn_button{
     }
     main .form_items{
         margin-top: 20px;
+        margin-left: 50px;
     }
 }
 
@@ -322,6 +323,7 @@ main .main_jn_button{
     main {
         display: flex;
         flex-direction: row;
+        flex-direction: wrap;
     }
 
     nav .nav_menu {
@@ -329,7 +331,7 @@ main .main_jn_button{
         flex-direction: row;
     }
     nav{   
-        padding: 30px 30px;
+        padding: 20px 20px;
     }
 
 nav .nav_form{

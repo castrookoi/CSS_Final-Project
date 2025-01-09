@@ -130,11 +130,12 @@ nav .nav_sch_button{
    nav .nav_menuIcon {
         display: none; /* Ensures the element is not displayed */
     }
+
 }
-@media screen and (max-width: 1013px){
+/* @media screen and (max-width: 1000px){
     nav .nav_menu, nav .nav_form{
         display: none;}
-    }
+    } */
 
 
 @media screen and (max-width: 1013px){
@@ -152,8 +153,35 @@ nav .nav_sch_button{
         display: none;
     }
 
-    
- 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 400px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+main .main_Hero {
+    width: 65%;
+    height: 200px;
+    /* background-color: yellow; */
+    padding-left: 50px;
+    margin-top: 400px;
+}
+ h2{
+    font-size: 40px !important;
+  
+}
+.moreinfo_joinus p {
+/* background-color: yellow; */
+width: 400px;
+margin-bottom: 5px;
+}
+.main_jn_button{
+    margin: 15px !important
+    ;
+}
 }
 /* Everything about the Header Ends here */
 
@@ -346,7 +374,7 @@ main .main_jn_button{
         display: flex;
         flex-direction: column;
         gap: 80px;
-        background-color: green;
+        /* background-color: green; */
         /* background-color: yellow; */
     }
     

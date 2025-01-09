@@ -142,7 +142,7 @@ main {
 
 }
 main .main_Hero {
-    height: 400px;
+    /* height: 400px; */
     /* background-color: yellow; */
     padding-left: 50px;
     margin-top: 90px;
@@ -288,25 +288,7 @@ main .main_jn_button{
     width: 30px;
  }
 
- .form_instagram {
-    width: 25px;
- }
-
- .form_instagram path {
-    fill: var(--primary-color);
- }
- .form_instagram path:hover{
-    fill: var(--fill-color);
- }
-
- .form_tweet {
-    width: 30px;   /* Set width */
-    height: 30px;  /* Set height */
-    color: white;   /* Set the SVG fill color to white */
-    stroke: none;   /* Ensure there is no stroke */
- }
-
- @media screen and (max-width: 976px) {
+ @media screen and (max-width: 984px) {
     nav .nav_menu {
         display: none; /* Hide menu items on mobile */
     }
@@ -320,21 +302,29 @@ main .main_jn_button{
     }
 
     main {
+        display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    main .form_items{
+        margin-top: 20px;
     }
 }
 
-@media screen and (min-width: 977px) {
+@media screen and (min-width: 985px) {
     nav .nav_menuIcon {
         display: none; /* Hide menu icon on desktop */
     }
 
     main {
+        display: flex;
         flex-direction: row;
     }
 
     nav .nav_menu {
         display: flex; /* Ensure menu items are displayed on desktop */
+        flex-direction: row;
     }
     nav{   
         padding: 30px 30px;
@@ -383,3 +373,22 @@ nav .nav_form{
     stroke: var(--fill-color);
     fill: var(--fill-color);
 }
+
+
+.form_instagram {
+    width: 25px;
+ }
+
+ .form_instagram path {
+    fill: var(--primary-color);
+ }
+ .form_instagram path:hover{
+    fill: var(--fill-color);
+ }
+
+ .form_tweet {
+    width: 30px;   /* Set width */
+    height: 30px;  /* Set height */
+    color: white;   /* Set the SVG fill color to white */
+    stroke: none;   /* Ensure there is no stroke */
+ }

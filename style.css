@@ -36,7 +36,7 @@ nav{
     padding: 50px 50px;
     height: 50px;
     display: flex;
-    justify-content: space-between; 
+   gap: 30px;
     align-items: center;
 }
 
@@ -84,7 +84,7 @@ nav .nav_form {
   width: 330px;
   display: flex;
   flex-direction: row;
-  background-color: yellow;
+  /* background-color: yellow; */
   gap: 0;
 }
 nav .nav_form input, .nav_form button{

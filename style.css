@@ -36,7 +36,7 @@ nav{
     padding: 50px 50px;
     height: 50px;
     display: flex;
-   gap: 30px;
+   justify-content: space-between;
     align-items: center;
 }
 
@@ -60,7 +60,7 @@ nav .nav_menuIcon{
 /* styling the Menu and Items */
 nav .nav_menu ul{
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 
 nav .nav_menu ul li{
